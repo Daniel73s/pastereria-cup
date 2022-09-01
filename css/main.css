@@ -1,0 +1,40 @@
+.contenedor {
+    position: relative;
+    text-align: center;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .bottom-right{
+  position: absolute;
+  bottom: 5px;
+  right: 12px;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 5px;
+    left: 12px;
+  }
+.bg-gradiente{
+  background: rgb(38,35,89);
+background: linear-gradient(90deg, rgba(38,35,89,1) 0%, rgba(120,9,121,1) 42%, rgba(0,212,255,1) 96%);
+}
+
+  @media only screen and (max-width: 800px) {
+    .contenedor{
+        display: none;
+    }
+    .margen{
+        margin-top: 55px;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+   .texto{
+    display: none;
+   }
+  }
